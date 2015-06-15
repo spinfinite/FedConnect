@@ -15,6 +15,8 @@
 		E3CCBC441B2CA02800DDD5E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CCBC431B2CA02800DDD5E2 /* Images.xcassets */; };
 		E3CCBC471B2CA02800DDD5E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CCBC451B2CA02800DDD5E2 /* LaunchScreen.xib */; };
 		E3CCBC531B2CA02800DDD5E2 /* FedConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC521B2CA02800DDD5E2 /* FedConnectTests.m */; };
+		E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */; };
+		E3CCBC611B2E6B1900DDD5E2 /* GetMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		E3CCBC4C1B2CA02800DDD5E2 /* FedConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FedConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CCBC511B2CA02800DDD5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3CCBC521B2CA02800DDD5E2 /* FedConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FedConnectTests.m; sourceTree = "<group>"; };
+		E3CCBC5C1B2E626A00DDD5E2 /* MainTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewDataSource.h; sourceTree = "<group>"; };
+		E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewDataSource.m; sourceTree = "<group>"; };
+		E3CCBC5F1B2E6B1900DDD5E2 /* GetMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMembersViewController.h; sourceTree = "<group>"; };
+		E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMembersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				E3CCBC381B2CA02800DDD5E2 /* AppDelegate.m */,
 				E3CCBC3D1B2CA02800DDD5E2 /* ViewController.h */,
 				E3CCBC3E1B2CA02800DDD5E2 /* ViewController.m */,
+				E3CCBC5F1B2E6B1900DDD5E2 /* GetMembersViewController.h */,
+				E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */,
+				E3CCBC5C1B2E626A00DDD5E2 /* MainTableViewDataSource.h */,
+				E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */,
 				E3CCBC401B2CA02800DDD5E2 /* Main.storyboard */,
 				E3CCBC431B2CA02800DDD5E2 /* Images.xcassets */,
 				E3CCBC451B2CA02800DDD5E2 /* LaunchScreen.xib */,
@@ -225,7 +235,9 @@
 				E3CCBC391B2CA02800DDD5E2 /* AppDelegate.m in Sources */,
 				E3CCBC3C1B2CA02800DDD5E2 /* FedConnect.xcdatamodeld in Sources */,
 				E3CCBC3F1B2CA02800DDD5E2 /* ViewController.m in Sources */,
+				E3CCBC611B2E6B1900DDD5E2 /* GetMembersViewController.m in Sources */,
 				E3CCBC361B2CA02800DDD5E2 /* main.m in Sources */,
+				E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
