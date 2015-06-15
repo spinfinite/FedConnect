@@ -7,10 +7,12 @@
 //
 
 #import "GetMembersViewController.h"
+#import "GetMembersTableViewDataSource.h"
 
-@interface GetMembersViewController () <UITableViewDelegate>
+@interface GetMembersViewController () <UITableViewDelegate, GetMembersTableViewDataSourceDelegate>
 
 @property (nonatomic, strong) UITableView *GetMembersTableView;
+@property (nonatomic, strong) GetMembersTableViewDataSource *getMembersDataSource;
 
 @end
 

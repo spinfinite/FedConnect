@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface GetMembersTableViewDataSource : NSObject
+@protocol GetMembersTableViewDataSourceDelegate;
+
+@interface GetMembersTableViewDataSource : NSObject <UITableViewDataSource>
+
+@property (nonatomic, strong) UILabel *mainLabel;
+@property (nonatomic, strong) UITextField *textField;
+
+@property (nonatomic, assign) id<GetMembersTableViewDataSourceDelegate>delegate;
+
+@end
+
+@protocol GetMembersTableViewDataSourceDelegate <NSObject>
 
 @end
