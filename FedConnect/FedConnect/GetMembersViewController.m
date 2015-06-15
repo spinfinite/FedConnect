@@ -8,6 +8,7 @@
 
 #import "GetMembersViewController.h"
 #import "GetMembersTableViewDataSource.h"
+#import "GetByZipCell.h"
 
 @interface GetMembersViewController () <UITableViewDelegate, GetMembersTableViewDataSourceDelegate>
 
@@ -51,7 +52,13 @@
     
     [self.view addSubview:self.GetMembersTableView];
     
+    [self.GetMembersTableView registerClass: [GetByZipCell class] forCellReuseIdentifier:@"getZip"];
 
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 
@@ -91,9 +98,6 @@
 }
 */
 
-//- (void)didReceiveMemoryWarning {
-//    [super didReceiveMemoryWarning];
-//    // Dispose of any resources that can be recreated.
-//}
+
 
 @end

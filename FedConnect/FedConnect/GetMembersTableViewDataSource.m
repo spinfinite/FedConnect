@@ -7,6 +7,7 @@
 //
 
 #import "GetMembersTableViewDataSource.h"
+#import "GetByZipCell.h"
 
 @interface GetMembersTableViewDataSource ()
 
@@ -22,8 +23,11 @@
     }
     
     if (indexPath.section == 0 && indexPath.row == 0){
+    
+        GetByZipCell *getZip = [tableView dequeueReusableCellWithIdentifier:@"getZip" forIndexPath:indexPath];
+        getZip.getZipLabel.text = [NSString stringWithFormat:@"Zip"];
         
-        return 0;
+        return getZip;
         
         
     }
