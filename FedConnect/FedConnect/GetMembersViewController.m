@@ -40,13 +40,46 @@
     UIView *view = [[UIView alloc] initWithFrame:self.view.bounds];
     view.backgroundColor = [UIColor whiteColor];
     
+    self.getMembersDataSource = [GetMembersTableViewDataSource new];
+    self.getMembersDataSource.delegate = self;
+    
+    self.GetMembersTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    [self.GetMembersTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    self.GetMembersTableView.delegate = self;
+    self.GetMembersTableView.dataSource = self.getMembersDataSource;
+    
+    [self.view addSubview:self.GetMembersTableView];
+    
 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if(indexPath.section == 0 && indexPath.row == 2){
+        return 200;
+    }
+    else {
+        return 40;
+    }
+        
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if(indexPath.section == 1 && indexPath.row == 0){
+        
+        
+    }
+    
+    else if(indexPath.section == 2 && indexPath.row == 0){
+        
+        
+        
+    }
+    
+}
+
 
 /*
 #pragma mark - Navigation
@@ -57,5 +90,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+//- (void)didReceiveMemoryWarning {
+//    [super didReceiveMemoryWarning];
+//    // Dispose of any resources that can be recreated.
+//}
 
 @end

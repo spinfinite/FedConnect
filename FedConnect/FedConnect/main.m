@@ -3,7 +3,7 @@
 //  FedConnect
 //
 //  Created by Sergio Perez on 6/13/15.
-//  Copyright (c) 2015 Learning iOS Development. All rights reserved.
+//  Copyright (c) 2015 iOS Development. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

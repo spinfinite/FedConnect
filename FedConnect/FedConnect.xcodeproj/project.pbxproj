@@ -18,6 +18,7 @@
 		E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */; };
 		E3CCBC611B2E6B1900DDD5E2 /* GetMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */; };
 		E3CCBC641B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */; };
+		E3CCBC6D1B2E904A00DDD5E2 /* GetByZipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC6C1B2E904A00DDD5E2 /* GetByZipCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMembersViewController.m; sourceTree = "<group>"; };
 		E3CCBC621B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMembersTableViewDataSource.h; sourceTree = "<group>"; };
 		E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMembersTableViewDataSource.m; sourceTree = "<group>"; };
+		E3CCBC6B1B2E904A00DDD5E2 /* GetByZipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetByZipCell.h; sourceTree = "<group>"; };
+		E3CCBC6C1B2E904A00DDD5E2 /* GetByZipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetByZipCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */,
 				E3CCBC5C1B2E626A00DDD5E2 /* MainTableViewDataSource.h */,
 				E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */,
+				E3CCBC6B1B2E904A00DDD5E2 /* GetByZipCell.h */,
+				E3CCBC6C1B2E904A00DDD5E2 /* GetByZipCell.m */,
 				E3CCBC401B2CA02800DDD5E2 /* Main.storyboard */,
 				E3CCBC431B2CA02800DDD5E2 /* Images.xcassets */,
 				E3CCBC451B2CA02800DDD5E2 /* LaunchScreen.xib */,
@@ -244,6 +249,7 @@
 				E3CCBC361B2CA02800DDD5E2 /* main.m in Sources */,
 				E3CCBC641B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m in Sources */,
 				E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */,
+				E3CCBC6D1B2E904A00DDD5E2 /* GetByZipCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
