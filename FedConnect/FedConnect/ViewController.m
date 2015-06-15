@@ -3,11 +3,12 @@
 //  FedConnect
 //
 //  Created by Sergio Perez on 6/13/15.
-//  Copyright (c) iOS Development. All rights reserved.
+//  Copyright (c) 2015 iOS Development. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "MainTableViewDataSource.h"
+#import "GetMembersViewController.h"
 
 @interface ViewController () <UITableViewDelegate>
 
@@ -33,8 +34,8 @@
     
     [self.view addSubview:self.FCTableView];
     
-    //[self.tableViewDataSource registerTableView:self.FCTableView];
-    //self.FCTableView.dataSource = self.tableViewDataSource;
+    [self.tableViewDataSource registerTableView:self.FCTableView];
+    self.FCTableView.dataSource = self.tableViewDataSource;
     
 
 }
@@ -42,10 +43,12 @@
 
 #pragma tableview controllers
 
--(void)tableView:(UiTableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if(indexPath.row == 0){
         
+        GetMembersViewController *getMembersView = [GetMembersViewController new];
+        [self.navigationController pushViewController:getMembersView animated:YES];
         
         
     }
