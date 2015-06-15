@@ -25,7 +25,7 @@
     if (indexPath.section == 0 && indexPath.row == 0){
     
         GetByZipCell *getZip = [tableView dequeueReusableCellWithIdentifier:@"getZip" forIndexPath:indexPath];
-        getZip.getZipLabel.text = [NSString stringWithFormat:@"Zip"];
+        getZip.getZipLabel.text = [NSString stringWithFormat:@"Let's Connect with your Fed"];
         
         return getZip;
         
@@ -53,7 +53,7 @@
     
     if (section == 0){
         
-        return 3;
+        return 1;
         
     }
     
@@ -63,6 +63,11 @@
     }
     
     else if (section == 2){
+        
+        return 1;
+    }
+    
+    else if (section == 3){
         
         return 1;
     }

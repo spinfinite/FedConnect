@@ -34,6 +34,15 @@
 
 -(void)setup{
     
+    self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 70, 320, 44)];
+    self.searchBar.backgroundColor = [UIColor clearColor];
+    self.searchBar.placeholder = @"enter";
+    self.searchBar.delegate = self;
+    [self addSubview:self.searchBar];
+    
+//    searchBar setTitle:@"Enter 5 Digit Zip Code";
+    
+    
     self.getZipLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
     self.getZipLabel.textColor = [UIColor colorWithRed:238.0/255.0 green:237.0/255.0 blue:234.0/255 alpha:1];
     self.getZipLabel.font = [UIFont fontWithName:@"Avenir Next" size:20];
