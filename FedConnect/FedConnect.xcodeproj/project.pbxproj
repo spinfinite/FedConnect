@@ -17,6 +17,7 @@
 		E3CCBC531B2CA02800DDD5E2 /* FedConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC521B2CA02800DDD5E2 /* FedConnectTests.m */; };
 		E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */; };
 		E3CCBC611B2E6B1900DDD5E2 /* GetMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */; };
+		E3CCBC641B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewDataSource.m; sourceTree = "<group>"; };
 		E3CCBC5F1B2E6B1900DDD5E2 /* GetMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMembersViewController.h; sourceTree = "<group>"; };
 		E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMembersViewController.m; sourceTree = "<group>"; };
+		E3CCBC621B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMembersTableViewDataSource.h; sourceTree = "<group>"; };
+		E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMembersTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				E3CCBC3E1B2CA02800DDD5E2 /* ViewController.m */,
 				E3CCBC5F1B2E6B1900DDD5E2 /* GetMembersViewController.h */,
 				E3CCBC601B2E6B1900DDD5E2 /* GetMembersViewController.m */,
+				E3CCBC621B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.h */,
+				E3CCBC631B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m */,
 				E3CCBC5C1B2E626A00DDD5E2 /* MainTableViewDataSource.h */,
 				E3CCBC5D1B2E626A00DDD5E2 /* MainTableViewDataSource.m */,
 				E3CCBC401B2CA02800DDD5E2 /* Main.storyboard */,
@@ -237,6 +242,7 @@
 				E3CCBC3F1B2CA02800DDD5E2 /* ViewController.m in Sources */,
 				E3CCBC611B2E6B1900DDD5E2 /* GetMembersViewController.m in Sources */,
 				E3CCBC361B2CA02800DDD5E2 /* main.m in Sources */,
+				E3CCBC641B2E7B0400DDD5E2 /* GetMembersTableViewDataSource.m in Sources */,
 				E3CCBC5E1B2E626A00DDD5E2 /* MainTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
