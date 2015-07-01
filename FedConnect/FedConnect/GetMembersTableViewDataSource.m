@@ -22,7 +22,7 @@
         newCell = [UITableViewCell new];
     }
     
-    if (indexPath.section == 0 && indexPath.row == 0){
+    if (indexPath.section == 1 && indexPath.row == 0){
     
         GetByZipCell *getZip = [tableView dequeueReusableCellWithIdentifier:@"getZip" forIndexPath:indexPath];
         getZip.getZipLabel.text = [NSString stringWithFormat:@"Let's Connect with your Fed"];

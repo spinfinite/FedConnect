@@ -52,7 +52,8 @@
     
     [self.view addSubview:self.GetMembersTableView];
     
-    [self.GetMembersTableView registerClass: [GetByZipCell class] forCellReuseIdentifier:@"getZip"];
+    [self.GetMembersTableView registerClass: [GetByZipCell class] forCellReuseIdentifier:@"getZip"]; // Register GetByZipCell
+    
 
 }
 

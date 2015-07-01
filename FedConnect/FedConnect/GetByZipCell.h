@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) UITextField *textField;
 @property (nonatomic, strong) UILabel *getZipLabel;
-@property (nonatomic, strong) UILabel *mainLabel;
 @property (nonatomic, strong) UISearchBar *searchBar;
+@property (nonatomic, strong) UISearchController *searchController;
 
 @end

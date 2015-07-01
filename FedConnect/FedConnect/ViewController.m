@@ -35,6 +35,7 @@
     [self.view addSubview:self.FCTableView];
     
     [self.tableViewDataSource registerTableView:self.FCTableView];
+    
     self.FCTableView.dataSource = self.tableViewDataSource;
     
 
